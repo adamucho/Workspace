@@ -1,0 +1,25 @@
+
+
+body{
+  background-color: #FFE;
+}
+
+h3{
+  color: #887;
+}
+
+a{
+  text-decoration: none;
+  color:#900;
+}
+
+body{
+  text-align: center;
+}
+
+img{
+  border:3px solid black;
+  border-radius: 10px;
+
+
+}

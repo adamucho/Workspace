@@ -1,0 +1,63 @@
+<!-- tells browser which version of HTML -->
+<!DOCTYPE html>
+
+ <!-- root element of the document -->
+<html>
+
+ <!-- the head is a child element or node of the html element -->
+  <head>
+		<style>
+			body {
+				font-family: helvetica;
+			}
+			
+			h1 {
+				font-size:24px;
+				color:blue;
+				border: 1px solid #ccc;
+				padding:5px; /* we will learn more about padding when we learn about the box model...try increasing the value to 15px!*/
+
+			}
+
+			h2 {
+				color: green;
+			}
+			h1,h2 {
+				padding:5px;
+			}
+
+			h3 {
+				color: red;
+			}
+
+			ul {
+				list-style-type:square; /* changes list with bullets to list with squares */
+			}
+		</style>
+	  <!-- title is the only required element in the head -->
+	   <title>General</title>
+	   <link rel="stylesheet" href="style.css"> <!-- rel specifies relationship between the linked doc and current one.  href specifies the location relative to the current doc -->
+  </head>
+  <!-- the body is a child of the html element.  It is where we put all of our content...what we want people to see -->
+
+  <body>
+  	<h1>General Assembly</h1>
+	<h2>Front End Web Development Overview</h2>
+	<ul>
+		<li>
+			<h3>Skills & Tools</h3>
+			<p>Use HTML5, CSS3, JavaScript, jQuery, GitHub, and Sublime in concert.</p>
+		</li>
+		<li>
+			<h3>Production Standard</h3>
+			<p>Build a fully responsive, interactive website that stands apart from the usual templates.
+			Master technical vocabulary</p>
+		</li>
+		<li>
+			<h3>The Big Picture</h3>
+			<p>Understand how a skillful mix of programming and layout powers the web we see – and how teams collaborate to create it.</p>
+		</li>
+	</ul>
+  </body>
+
+</html>
