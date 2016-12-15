@@ -1,0 +1,119 @@
+
+<!--
+
+Your challenge with this exercise is to ensure that the gray box (it's content + padding + border + margin) always takes up 400px of space on the page
+
+You should end up with 3 separate CSS rules, each targeting "p" separately, a different rule for each challenge
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		section{
+			width:300px;
+			height: 200px;
+			padding: 10px 20px 30px 40px;
+			border: 5px solid orange;
+			/*margin:20px solid green;*/
+			background-color: green;
+		}
+
+			#container {
+				width:300px;
+				height: 100px;
+				background: grey;
+		}
+
+		}
+
+	  p {
+
+			padding: 20px;
+			width: 360px;
+			background:gray;
+			height:50px;
+			width:400px; /* don't change this value here */
+
+		}
+
+		div {
+
+			padding-top:10px;
+			padding-bottom:10px;
+
+		}
+
+		/* CHALLENGE #1
+			In the following rule,
+			the padding should be set to 20px
+		*/
+		p {
+			padding: 20px;
+			margin: ;
+
+
+
+		}
+
+		/* CHALLENGE #2
+			In the following rule,
+			the padding should be set to 20px
+			and the border should be set to 5px
+		*/
+
+		p {
+			padding: 20px;
+			border: 5px solid black;
+			width: 350px;
+
+
+
+		}
+
+		/* CHALLENGE #3
+			In the following rule,
+			there should be 20px of padding
+			the border should be 5px
+			there should be a 5px margin on the left and right, and 10px margin on the top and bottom
+		*/
+
+		p {
+			padding: 20px;
+			border: 5px solid black;
+			margin : 10px 5px;
+			width :340px;
+
+
+		}
+
+		a{
+			width: 50px; /*wont apply because its a inline element*/
+			height: 30px;
+			padding:20px;
+			margin: 20px;  /*left right has a n affecct, but topbottom doesnt interact with other elements*/
+			display: inline-block; /*a common set this <a> tags in horizontal navigation  menu or <img> tags throughout*/
+		}
+
+		/*to move link inline to give it more space*/
+/*
+		--------------------------------------------------------*/
+
+
+
+	</style>
+</head>
+<body>
+	<section>
+	</section>
+	<div id="container">
+		<p>Welcome to the box model!</p>
+	</div>
+	<nav>
+		<a href="#"">link 1</a>
+		<a href="#"">link 2</a>
+		<a href="#"">link 3</a>
+	</nav>
+
+</body>
+</html>
