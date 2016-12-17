@@ -5,7 +5,6 @@
 	font-family: arial;
 	font-style: italic;
 	color: black;
-	left: 
 }
 
 .port{
@@ -33,13 +32,28 @@ h1{
 
 }
 
-img{
-	width: 100px;
+.centerinfo{
+	display: block;
+	float: left;
+	width: 400px;
+
+}
+
+.avatar{
+	display: inline
+	
+	
 	height: auto;
-	/*float: right*/;
+/*	border: 1px solid black;
+	padding: 4px;
+	position: 10px;*/
+}
+
+img{
+	width: 180px;
+	height: auto;
 	border: 1px solid black;
 	padding: 4px;
-
 
 }
 
@@ -49,6 +63,9 @@ body{
 	border-right: none;
 	border-left: none;
 	margin: 0px 150px 0px 150px;
+/*	padding: 150px 0px 150px 0px;*/
+	
+	
 }
 
 
@@ -57,13 +74,7 @@ body{
 	padding-top: 50px;
 }
 
-.centerinfo{
-	display: block;
-	 padding:20px;
-	word-wrap: break-word;
-	width: 400px
 
-}
 
 .bottomlink {
 	color: black;
