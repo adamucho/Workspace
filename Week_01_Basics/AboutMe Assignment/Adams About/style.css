@@ -34,26 +34,26 @@ h1{
 
 .centerinfo{
 	display: block;
-	float: left;
 	width: 400px;
+	float: left;
 
 }
 
 .avatar{
-	display: inline
-	
-	
+	display: inline;
 	height: auto;
-/*	border: 1px solid black;
-	padding: 4px;
-	position: 10px;*/
+
+	position: relative;
+	left: 70px;
 }
 
+
 img{
-	width: 180px;
+	width: 300px;
 	height: auto;
 	border: 1px solid black;
 	padding: 4px;
+	/*float: right;*/
 
 }
 
@@ -62,9 +62,8 @@ body{
 	border-style: solid;
 	border-right: none;
 	border-left: none;
-	margin: 0px 150px 0px 150px;
+	margin: 0px 350px 0px 350px;
 /*	padding: 150px 0px 150px 0px;*/
-	
 	
 }
 
