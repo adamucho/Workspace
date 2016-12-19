@@ -32,6 +32,14 @@ h1{
 
 }
 
+.parent_container {
+	
+    height: auto;
+    margin: 15px auto;
+    min-height: 300px;
+    width: 960px;
+}
+
 .centerinfo{
 	display: block;
 	width: 400px;
@@ -40,10 +48,10 @@ h1{
 }
 
 .avatar{
-	display: inline;
+	float: left;
+	/*display: inline;*/
 	height: auto;
-
-	position: relative;
+/*	position: relative;*/
 	left: 70px;
 }
 
@@ -59,10 +67,10 @@ img{
 
 body{
 	background-color: #f6f6f6;
-	border-style: solid;
+/*	border-style: solid;
 	border-right: none;
 	border-left: none;
-	margin: 0px 350px 0px 350px;
+	margin: 0px 350px 0px 350px;*/
 /*	padding: 150px 0px 150px 0px;*/
 	
 }

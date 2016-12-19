@@ -1,0 +1,103 @@
+
+body{
+	background-color: #f6f6f6;
+
+/*	border-style: solid;
+	border-right: none;
+	border-left: none;
+	margin: 0px 350px 0px 350px;*/
+/*	padding: 150px 0px 150px 0px;*/
+	
+}
+
+.toplink{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.about {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+	font-style: italic;
+	color: black;
+}
+
+.port{
+/*	text-decoration: none;*/
+	font-weight: bold;
+	font-family: arial;
+	color: black;
+}
+
+h1{
+	font-family: arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+
+h2{ 
+	font-family: arial;
+	/*display: inline-block;*/
+
+	}
+
+h3{ 
+	font-family: arial;
+}
+
+
+
+.experience_container {
+      height: auto;
+      margin: 15px auto;
+
+      width: 900px;
+      /*word-wrap: break-word;*/
+}
+
+
+.portfolio_container {
+
+      height: auto;
+      margin: 15px auto;
+   		padding: 20px 0px 0px 0px;
+      width: 900px;
+      /*word-wrap: break-word;*/
+
+}
+
+p{
+	font-size: 12pt;		
+}
+
+.portfolio_png{
+	text-align: center;
+	padding: 20px 0px 50px 0px;
+}
+
+img{
+	border: 1px solid black;
+
+}
+
+em{
+	font-family: arial;
+}
+
+
+
+.bottomlink {
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	margin: 50px 0px 50px 0px;
+	
+}
+
+
+
