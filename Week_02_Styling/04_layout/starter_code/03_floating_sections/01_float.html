@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Alright already, we all float on</title>
+	<style>
+	/* Basic float behavior */
+
+	/*
+
+	Step 1: take note of
+	a) the `section` elements we are using=
+	b) the IDs and classes assigned to those elements, and
+	c) the corresponding CSS rule(S)
+
+	Step 2. float #introduction to the left and take note of what is visible on the screen (inspect the DOM to see the element is still present)
+	Step 3. float #content to the left and take not of what is visible on the screen (inspect the DOM to see the element is still present)
+	Step 4. float #summary to the left and take not of what is visible on the screen (inspect the DOM to see the element is still present)
+
+	*/
+	.box {
+	 width:300px;
+/*	 height:100px;
+	 border:5px solid white*/;
+	}
+
+	
+	#introduction {
+	 background:red;
+	 float:left;
+	}
+
+	#content {
+	 background:green;
+	 float: left;
+	}
+
+	#summary {
+	 background:blue;
+	}
+
+	#introduction, #content, #summary{
+	}
+
+	</style>
+</head>
+
+<body>
+
+	<section id="introduction" class="box">
+
+	</section>
+
+	<section id="content" class="box">
+
+	</section>
+
+	<section id="summary" class="box">
+
+	</section>
+
+</body>
+
+</html>

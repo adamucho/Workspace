@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alright already, we all float on</title>
+	<style>
+	/*
+	When and why do we need to use the "clear" property?  Let's make a simple, 2-column layout and find out!
+
+	Step 1: float your <section> element to the left
+	Step 2: float your <aside> element to the left
+	Step 3: What happened to the <footer>?  We have taken the section and aside elements out of the flow, so the footer acts like they aren't even there.
+	We want to tell the footer to ignore the floating that is happening...we do this with the clear property.
+ */
+	.box {
+	  height:100px;
+	}
+
+	section {
+	 width:700px;
+	 background:red;
+	 float: left;
+	}
+
+	aside {
+   width:300px;
+   float: left;
+ 	 background:green;
+	}
+
+	footer {
+		clear:both;
+	 width:1000px;
+	 background:blue;
+	}
+	</style>
+</head>
+	<body>
+
+	<section class="box">
+	</section>
+
+	<aside class="box">
+	</aside>
+
+	<footer  class="box">
+	</footer>
+
+</body>
+
+</html>
