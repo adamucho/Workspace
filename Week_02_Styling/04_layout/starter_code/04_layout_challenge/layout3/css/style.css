@@ -1,0 +1,42 @@
+header{
+	float: left;
+	background-color: gray;
+	width: 1040px;
+	height: 150px;
+	margin: 20px;
+}
+
+nav{
+	float: left;
+	clear: left;
+	background-color: yellow;
+	width: 150px;
+	height: 350px;
+	margin: 0px 10px 0px 20px ;
+}
+
+section{
+	float: left;
+
+	background-color: blue;
+	width: 700px;
+	height: 350px;
+	margin: 0px 10px 0px 10px;
+}
+
+aside{
+	float: left;
+	background-color: red;
+	width: 150px;
+	height: 350px;
+	margin: 0px 0px 0px 10px;
+}
+
+footer{
+	float: left;
+	clear: left;
+	background-color: green;
+	width: 1040px;
+	height: 150px;
+	margin: 20px;
+}
