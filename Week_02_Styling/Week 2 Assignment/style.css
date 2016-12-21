@@ -1,0 +1,14 @@
+header{
+	
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("images/header_bg.jpg");
+	width: 1200px;
+	height: 700px;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: white
+
+}
