@@ -1,0 +1,102 @@
+header{
+	float: left;
+	background-color: gray;
+	width: 150px;
+	height: 80px;
+	margin: 10px;
+
+}
+
+.link1{
+	float: left;
+	background-color: red;
+/*	border: 1px solid black;*/
+	width: 90px;
+	height: 40px;
+	margin: 30px 10px 10px 20px;
+}
+
+.link2{
+	float: left;
+/*	border: 1px solid black;*/
+	background-color: red;
+	width: 90px;
+	height: 40px;;
+	margin: 30px 10px 0px 0px;
+}
+
+.link3{
+	float: left;
+/*	border: 1px solid black;*/
+	background-color: red;
+	width: 90px;
+	height: 40px;
+	margin: 30px 0px 0px 0px;
+}
+
+.link4{
+	float: left;
+/*	border: 1px solid black;*/
+	background-color: red;
+	width: 90px;
+	height: 40px;
+	margin: 30px 10px 0px 10px;
+}
+
+.link5{
+	float: left;
+/*	border: 1px solid black;*/
+	background-color:red;
+	width: 90px;
+	height: 40px;
+	margin: 30px 0px 0px 0px;
+}
+
+
+
+.left_aside{
+	
+}
+
+section{
+	float:left;
+	clear: left;
+	background-color: blue;
+	width: 670px;
+	height:200px;
+	margin : 10px 0px 20px 10px;
+
+}
+
+.aside1{
+	float: left;
+	clear: left;
+	background-color: green;
+	width: 210px;
+	height: 100px;
+	margin: 0px 10px 0px 10px;
+}
+
+.aside2{
+	float: left;
+	background-color: green;
+	width: 210px;
+	height: 100px;
+	margin: 0px 10px 0px 10px;
+}
+
+.aside3{
+	float: left;
+	background-color: green;
+	width: 210px;
+	height: 100px;
+	margin: 0px 0px 0px 10px;
+}
+
+footer{
+	float: left;
+	background-color: gray;
+	width:670px;
+	height: 80px;
+	margin: 20px 0px 0px 10px;
+}
