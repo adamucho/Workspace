@@ -1,0 +1,23 @@
+* {
+  box-sizing:border-box;
+}
+.visible {
+  background:green;
+  border:3px solid black;
+}
+.left {float:left;}
+header, footer {
+  height: 100px;
+}
+
+section, aside {
+
+  height:300px;
+}
+section {
+  width:75%;
+}
+aside {
+  width:25%;
+}
+footer {clear:both;}

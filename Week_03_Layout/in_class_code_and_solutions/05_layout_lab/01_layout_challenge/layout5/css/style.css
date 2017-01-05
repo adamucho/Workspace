@@ -1,0 +1,110 @@
+
+/* helper css rules */
+* {
+  box-sizing:border-box;
+}
+
+body {
+  padding: 0 3%;
+ }
+
+.float {
+  float:left;
+}
+
+.clear {
+  clear:both;
+}
+
+.visible {
+  background:gray;
+  border:2px solid black;
+}
+
+.guide {
+  background:lightgray;
+}
+
+#logo {
+  width:20%;
+  height:75%;
+  top:50%;
+  transform:translateY(-50%);
+  position:relative;
+
+}
+
+nav {
+  position:absolute;
+  top:50%;
+  right:0;
+  transform:translateY(-50%);
+  width: 80%;
+  float:left;
+  text-align:right;
+}
+
+nav ul li a {
+ padding:10px 20px;
+ display:block;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+header, footer {
+  height:100px;
+  position:relative;
+}
+
+aside.primary, section.primary {
+   height:500px;
+   margin-bottom:1.5%;
+}
+
+aside.primary {
+  width:13.5%;
+  margin-right:1.5%;
+}
+
+section.primary {
+  width:85%;
+}
+
+/* inner elements */
+header.secondary {
+  height: 90px;
+  margin-bottom:1.5%;
+}
+
+aside.secondary, section.secondary {
+  height: 230px;
+  margin-bottom: 2.5%;
+}
+
+section.secondary {
+  width: 57.5%;
+  margin-right: 2.5%;
+}
+
+aside.secondary {
+  width: 40%;
+}
+
+#boxes {
+  overflow:auto;
+}
+
+.box {
+  width: 23.875%;
+  height: 149px;
+  margin-right:1.5%;
+}
+
+div aside:last-of-type{
+  margin-right:0px;
+}
+
+footer {
+}

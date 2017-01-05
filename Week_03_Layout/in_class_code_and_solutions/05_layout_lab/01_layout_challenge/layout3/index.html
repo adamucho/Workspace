@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Layout Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" media="screen" type="text/css" />
+  <style>
+  * {
+    box-sizing:border-box;
+  }
+  .visible{
+    background:gray;
+    border:2px solid black;
+  }
+  .short {
+    height:100px;
+  }
+  .tall {
+    height:500px;
+  }
+  .left {
+    float:left;
+  }
+  aside{
+    width:31.3%;
+    margin:1.5%;
+  }
+
+  aside:hover {
+    background:green;
+  }
+  aside:first-of-type{
+    margin-left:0px;
+  }
+
+  aside:last-of-type{
+    margin-right:0px;
+  }
+  section {
+    width:50%;
+  }
+  .clear {
+    clear:both;
+  }
+
+  
+
+
+  </style>
+</head>
+
+<body>
+  <header class="short visible"><h1>Header</h1></header>
+  <section class="left tall visible"><h2>Section 1</h2></section>
+  <section class="tall left visible"><h2>Section 2</h2></section>
+  <div id="ads" class="clear">
+    <aside class="left short visible"><h3>Aside 1</h3></aside>
+    <aside class="left short visible"><h3>Aside 2</h3></aside>
+    <aside class="left short visible"><h3>Aside 3</h3></aside>
+  </div>
+  <footer class="clear short visible"><small>Copyright 2016</small></footer>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!-- centering blcok elements -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta>
+	<title>Centering Stuff - A Block Vertically</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+
+	<!--
+
+	This is an example of how to vertically center a block within another block
+
+	-->
+	<style>
+	
+	header{
+	  width: 200px;
+	  height:400px;
+	  margin: 0px auto;
+	  background:green;
+	  font-size:12px;
+	}
+	section{
+		position:fixed;
+		bottom:0;
+		background: orange;
+		width:75%;
+		height:200px;
+	}
+
+	h1 {
+		position:relative;
+		top:50%;
+		transform:translateY(-50%);
+		background:blue;
+	  text-align:center;
+	  line-height:200px; /* set line height to height of parent */
+	}
+	
+	div {
+		width:30px;
+		height:30px;
+		background:blue;
+	}
+
+	</style>
+</head>
+<body>
+	
+	<header>
+		<h1>Company name<h1>
+	</header>
+	<!-- your turn!  Vertically and horizontally center the blue <div> --> 
+	</div>
+	</div>
+	
+	<section>
+		<div></div>
+	</section>
+
+
+</body>
+</html>

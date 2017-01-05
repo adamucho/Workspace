@@ -1,0 +1,109 @@
+<!-- centering inline elements like text -->
+<!DOCTYPE html>
+<head>
+	<title>Background images</title>
+
+	<style>
+
+		/*h1::first-letter{font-size:70px;}*/
+		section {
+		 	position:relative;
+			width: 600px;
+			height: 500px;
+			background:gray;
+			background-image:url("bg.jpg");
+			background-size:contain;
+			background-repeat:no-repeat;
+		}
+		#caption  {
+
+		}
+
+  a {
+	  	/*position: fixed;*/
+			position:absolute;
+			bottom:0;
+		  /*top:0;*/ /* remains fixed on the screen */
+	  	background-color:yellow;
+	  	padding:5px 20px;
+	  	text-decoration:none;
+	  	color:blue;
+	  	display:block;
+	  	width:150px; /* to center block element*/
+	  	margin: 0 auto; /* to center block element*/
+	  	text-align:center;
+	  	transition: 1s all;
+  }
+
+  a:hover{
+  	background:blue;
+  	color:white;
+  	transform:rotate(360deg);
+  }
+
+  a::first-letter{
+  	font-size:40px;
+  }
+  #alley {width: 60%;float:left;}
+
+	#pins {
+	  width:200px;
+	  color:black;
+	  font-size:100px;
+	  float:left;
+	  animation-name:pinAnimation;
+	  animation-duration:5s;
+
+  }
+
+	#animation {margin-top:100px;}
+  .circle{
+  	width:50px;
+  	height:50px;
+  	background:blue;
+  	border-radius:25px;
+  	animation-name:exampleTwo;
+  	animation-duration:5s;
+  	animation-timing-function:ease-in;
+  }
+
+  @keyframes example {
+  	from { background:blue; }
+  	to { background:yellow; }
+  }
+
+   @keyframes exampleTwo {
+  	0% { background:blue; }
+  	25% { background:yellow; }
+  	50% { background:orange; }
+  	75% { background:red; }
+  	100% { background:black;margin-left:500px; }
+  }
+
+  @keyframes pinAnimation {
+  	90%{transform:rotate(0deg)}
+  	100%{transform:rotate(90deg);}
+  }
+
+
+	</style>
+</head>
+<body>
+	<h1>Here is my slideshow</h1>
+	<section>
+		<div id="caption">
+		</div>
+		<a href="#">Get It Now</a>
+	</section>
+
+	<div id="animation">
+		<div id="alley">
+			<div class="circle">
+			</div>
+		</div>
+		<div id="pins">|||</div>
+
+	</div>
+
+</body>
+</html>

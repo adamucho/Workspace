@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alright already, we all float on</title>
+
+<style>
+/*This introduces the box-sizing property*/
+/*
+  Step 1: float both elements to the left using grouped css selecters (2 selectors in one rule, separated by a ",")
+  Step 2: give them padding, and see what happens
+  Step 3: Apply the box-sizing property to change how the browser interprets the `width` property we've set
+  Step 4: Apply a border, a notice they are still in alignment!
+  Step 4: Apply margin, notice we still have to factor that in
+  Step 5 - Convert margin to % to make the calculation easier
+*/
+section, aside{
+  height:300px;
+  box-sizing:border-box;
+}
+section {
+  background:blue;
+}
+
+aside {
+  background:red;
+}
+</style>
+</head>
+<body>
+
+  <section>
+  </section>
+
+  <aside>
+  </aside>
+
+</body>
+</html>

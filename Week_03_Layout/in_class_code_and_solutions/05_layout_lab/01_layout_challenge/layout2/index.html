@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Layout Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" media="screen" type="text/css" />
+
+  <style>
+  * {
+    box-sizing:border-box;
+  }
+  .visible{
+    background:gray;
+    border:2px solid black;
+  }
+  .short {
+    height:100px;
+  }
+  .tall {
+    height:500px;
+  }
+  .left {
+    float:left;
+  }
+  aside{
+    width:25%;
+  }
+  section {
+    width:50%;
+  }
+  footer {
+    clear:both;
+  }
+  </style>
+</head>
+
+<body>
+  <header class="visible short"></header>
+  <aside class="visible tall left"></aside>
+  <section class="visible tall left"></section>
+  <aside class="visible tall left"></aside>
+  <footer class="visible short"></footer>
+</body>
+
+</html>
