@@ -1,7 +1,7 @@
 #logo{
 	float: left;
 	background-color: gray;
-	width: 150px;
+	width: 130px;
 	height: 80px;
 	margin: 10px;
 
@@ -13,7 +13,7 @@
 /*	border: 1px solid black;*/
 	width: 90px;
 	height: 40px;
-	margin: 30px 10px 10px 20px;
+	margin: 30px 10px 10px 40px;
 }
 
 .link2{
@@ -57,7 +57,8 @@
 	clear: left;
 	background-color: yellow;
 	width: 70px;
-	height: 450px;
+	height: 500px;
+	margin: 10px 0px 10px 10px;
 }
 
 #center{
@@ -68,62 +69,67 @@
 .top_articles{
 	/*float:left;*/
 	background-color: blue;
-	width: 600px;
-	height:150px;
+	width: 580px;
+	height:130px;
+	margin: 10px 0px 0px 20px;
 }
 
 .middle_article{
 	background-color: pink;
 	float:left;
-	width: 450px;
+	width: 430px;
 	height: 200px;
+	margin: 20px 20px 10px 20px;
 /*	float: left;*/
 }
 
 .right_article{
 	float: left;
 	background-color: brown;
-	width:150px;
+	width:130px;
 	height: 200px;
+	margin: 20px 0px 10px 0px;
 }
 
-#four_below{
+/*#four_below{
 	background-color: green;
-	width:150px;
-	height: 150px;
-	float: left;
-}
+	width:130px;
+	height: 130px;
+	float: left;*/
+
 .aside1{
 	float: left;
-	clear: left;
-/*	background-color: green;*/
-/*	width: 100px;
-	height: 100px;*/
-	margin: 0px 10px 0px 10px;
+	background-color: green;
+	width: 130px;
+	height: 130px;
+	margin: 10px 10px 0px 20px;
 }
 
 .aside2{
-/*	float: left;*/
-/*	background-color: green;*/
-/*	width: 100px;
-	height: 100px;*/
-	margin: 0px 10px 0px 10px;
+
+	float: left;
+	background-color: green;
+	width: 130px;
+	height: 130px;
+	margin: 10px 10px 0px 10px;
 }
 
+	/*margin: 0px 10px 0px 10px;*/
+
 .aside3{
-/*	float: left;*/
-/*	background-color: green;*/
-/*	width: 100px;
-	height: 100px;*/
-	margin: 0px 0px 0px 10px;
+	float: left;
+	background-color: green;
+	width: 130px;
+	height: 130px;
+	margin: 10px 0px 0px 10px;
 }
 
 .aside4{
-/*	float: left;*/
-/*	background-color: green;*/
-/*	width: 100px;
-	height: 100px;*/
-	margin: 0px 0px 0px 20px;
+	float: left;
+	background-color: green;
+	width: 130px;
+	height: 130px;
+	margin: 10px 0px 0px 20px;
 
 }
 
@@ -133,5 +139,5 @@ footer{
 	background-color: gray;
 	width:670px;
 	height: 80px;
-	margin: 20px 0px 0px 10px;
+	margin: 10px 0px 0px 10px;
 }
