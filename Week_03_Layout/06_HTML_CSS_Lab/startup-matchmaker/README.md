@@ -1,11 +1,14 @@
-### **Startup Matchmaker Lab**
+### **<u>Startup Matchmaker Lab</u>**
 
-#### **Suggested steps to follow**
+#### **If you want some guidance, here are some suggested steps to follow** and some very rough estimates of how long it may take 
+
+*(the time to do these steps can, and **likely will** vary greatly.  This is meant to be challenging (especially for Unit 3)  Don't worry if it takes you shorter or longer - the estimates are mainly there to help you see the process broken down into manageable chunks )*
+
 
 The goal for this project/lab is to:
 
 - accurately represent the design file using HTML/CSS
-- track your stages of building by your Git commit history
+- track your development using the GitHub desktop app
 
 **<u>Step 1</u>**
 
@@ -13,15 +16,15 @@ The goal for this project/lab is to:
 **Setup files/folders** 
 
 >
->*est. time to complete - ~10 - 15 mins*
+>*est. time to complete - ~10 - 20 mins*
 
 1. Create a new repo on GitHub called `startup-matchmaker`
 
-2. Clone this repository to your `workspace/Week_03_Layout/06_HTML_CSS_Practice`
+2. Clone this repository to your `workspace/Week_03_Layout/06_HTML_CSS_Practice` folder
 
-3. Copy/paste the contents (not the folder) of the `startup-matchmaker-starter` folder in the class repo for this unit
+3. Copy/paste the contents (not the folder) of the `sm_starter` folder into your newly created folder
 
-4. Make your first commit ("starter code added")
+4. Make your first commit in GitHub "starter code added")
 
 5. Create a  `css` folder in your `startup-matchmaker/` folder
 
@@ -31,7 +34,7 @@ The goal for this project/lab is to:
 
 7. Create `style.css` file and put it in `css/`folder
 
-8. Create index.html file in `startup_matchmaker/` , setup the HTML5 structure (DOCTYPE, HEAD, etc.) and link both of the above `.css` files into your `index.html` file
+8. Create an `index.html` file in `startup_matchmaker/` , setup the HTML5 structure (DOCTYPE, HEAD, etc.) and link both of the above `.css` files into your `index.html` file
 
    ​
 
@@ -58,7 +61,7 @@ e.g. "adds html/css files for site"
 
 **Create the skeleton in your HTML**
 
->*est. time to complete: ~ 15 mins*
+>*est. time to complete: ~ 15-30 mins*
 
 - Open up the `index.html` file you created at the beginning
 - Using your wireframe as a reference, in the `<body>` of your `index.html` file, write out the HTML elements you chose
@@ -80,23 +83,20 @@ e.g. "adds html tags to index.html"
 
 
 **<u>Step 4</u>**
-**Design/Style** 
-
-
-*est time to complete - 1.75 - 2.33 hours*
+**Design/Style**
 
 
 **<u>4a)</u> *Setting up environment***
 
 
-> *est. time to complete ~10 mins*
+> *est. time to complete ~15-20 mins*
 
 - Open up the design file and review the design specs below
 - Since we know we will need Google fonts, go ahead and [create the collection](https://www.google.com/fonts) you will need and bring it into your file
 - Here are the Google fonts (and styles) you will need:
-  - Merriweather: 700, 700 italics
-  - Oswald 700:
-  - Source Sans Pro: 400,700
+  - `Merriweather: 700, 700 italics`
+  - `Oswald 700`:
+  - `Source Sans Pro: 400,700`
 
 
 **COMMIT POINT** - **Save before you commit!****
@@ -111,24 +111,24 @@ e.g. "adds google fonts"
 **<u>4b)</u>** Begin CSS Skeleton***
 
 
-> *est. time to complete - 10-15 mins*
+> *est. time to complete - 15-30 mins*
 
 The goal of this step is to provide yourself with empty css rules that correspond to markup you have just created *(If you notice places you will need IDs and Classes, make a note of them as they will be used in the next step)*
 
-1. Utilize Sublime's split-view (view -> 2 rows) and open your `index.hml` file in one and `style.css` in another (ask if you need help with this)
+1.   Utilize Sublime's split-view (view -> 2 rows) and open your `index.hml` file in one and `style.css` in another (ask if you need help with this)
 
-2. Referencing the design file, and your markup, begin the skeleton of **empty** CSS rules you will need in your style sheet
-     1.  begin by laying out css rules for each element like:
+2.   Referencing your markup, begin the skeleton of **empty** CSS rules you will need in your style sheet
+     1.  begin by laying out css rules for each element that appears in your `index.html` file like this:
 
-         ```
-         header {
+```
+header {
 
-         }
+}
 
-         header nav {
+header nav {
 
-         }
-         ```
+}
+```
 
 **COMMIT POINT** - **Save before you commit!****
 
@@ -140,7 +140,7 @@ e.g. "adds css selectors for elements"
 
 
 
-**<u>4c</u>**: Assign IDs & Classes to markup, and create a skeleton for .css***
+**<u>4c</u>**: Assign IDs & Classes to markup, and create a skeleton for them in `style .css`
 
 
 > *est. time to complete ~ 20 mins*
@@ -158,36 +158,51 @@ e.g. "adds css selectors for elements"
 
 
 
-     2.  as you encounter elements you want to be able to uniquely identify, assign an ID to it in the html, and create an empty rule in the CSS using the #id as a selector 
-    
-         *For example, if I realize I have two <header> elements in my markup, I could decide to identify the first one like this:*
-         ```
-         /* IN CSSS */
-    
-         #page-header {
-    
-         }
-    
-         <!-- in HTML -->
-         ...
-         ....
-         <header id="page-header">
-         </header>
-         ...
-         ...
-         ```
-    
-     3.  As you ecounter multiple elements that have **at least some** things in common, assign a class to the element(s) and create that empty .class rule in your css
-```
+i) as you encounter elements you want to be able to uniquely identify, assign an ID to it in the html, and create an empty rule in the CSS using the #id as a selector 
 
-**COMMIT POINT** - **Save before you commit!****
+
+*For example, if I realize I have two <header> elements in my markup, and I want to style them differently (perhaps they should have different widths) I could decide to identify the first one like this:
+```    
+/* IN CSSS */
+
+#primary-header {
+
+}
+
+<!-- in HTML -->
+...
+....
+<header id="primary-header">
+</header>
+...
+...
+```
+and the second one like this
+```    
+/* IN CSSS */
+
+#secondary-header {
+
+}
+
+<!-- in HTML -->
+...
+....
+<header id="secondary-header">
+</header>
+...
+...
+```
+ii) As you ecounter multiple elements that have **at least some** things in common, assign a class to the element(s) and create that empty .class rule in your css
+
+
+
+iii) COMMIT POINT **Save before you commit!**
+ e.g. "adds IDs and Classes to markup and uses them as as selectors in CSS"
+
+
 
 ![commit point](github.png)
-
-
-
-e.g. "adds IDs and Classes to markup and uses them as as selectors in CSS"
-
 
 
 **<u>4d)</u>** Adding style!
@@ -196,7 +211,7 @@ e.g. "adds IDs and Classes to markup and uses them as as selectors in CSS"
 
 Now is the time to enjoy putting all of your planning and structuring to use!
 
-1. Starting with the design specs below, begin filling in your CSS rules
+1. Starting with the font specs below, begin filling in your CSS rules
 2. After the fonts from below, begin at the top of your CSS rules, and begin working your way down
 
 Things to keep in mind during this step:
@@ -225,9 +240,7 @@ e.g. "styles boxes"
 
 
 ------
-
-
-**Fonts for elements**
+### FONT SPECS
 
 Body - Source Sans Pro
 H1, H3 - Merriweather
