@@ -1,0 +1,174 @@
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.header_nav{
+	background:black;
+	height:120px;
+
+}
+#logo{
+	color:yellow;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	position: relative;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.top_navigation_bar {
+	color:white;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.top_navigation_bar_bold{
+	color:white;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+nav{
+	margin: auto;
+	width: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.line_break{
+	background-color: yellow;
+	height: 4px;
+}
+
+#slogan{
+	background:#C6C6C6;
+	font-size: 25px;
+	text-align: center;
+	height: auto;
+	width: auto;
+	padding: 20px 0px 20px 0px;
+	font-weight: 400;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+}
+
+em{
+	color :gray;
+	text-decoration: underline;
+}
+
+#hero{
+	display: block;
+	background-color: teal;
+	margin: auto;
+	height: 490px;
+	width: auto;
+
+
+
+}
+
+.description {
+	position: relative;
+	display: block;
+	top:20px;
+	margin: auto;
+	left: 300px;
+	background-color: rgba(255,255,255, 0.3);
+
+	width: 300px;
+	padding: 20px 20px 50px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.description header{
+	display: block;
+	position: relative;
+	text-align: left;
+	font-size: 35px;
+	font-weight: 700;
+	margin: auto;
+	padding: 15px 10px 5px 20px;
+
+
+
+}
+
+.description p{
+	display: block;
+	position: relative;
+	text-align: left;
+	line-height:28px;
+	font-size: 20px;
+	font-weight: 400;
+	height: auto;
+	padding: 15px 20px 70px 20px;
+}
+
+.yellow_button{
+
+	display: block;
+	position: relative;
+	font-size: 30px;
+	font-weight: 400;
+	position: relative;
+	background-color: yellow;
+	padding: 15px 15px ;
+	border-radius: 3px;
+	margin: auto;
+	text-align: center;
+	width: 220px;
+	box-shadow: 0px 3px #C9C51E;
+}
+
+.create_a_profile{
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+	
+
+}
+
+
+
+#features header{
+	font-weight: 400;
+	font-family: 'Merriweather', serif;
+
+	font-size: 20px;
+}
+
+#features p{
+	line-height:28px;
+	font-size: 20px;
+	font-weight: 400;
+
+}
+
+
+#features{
+
+
+	text-align: left;
+	line-height:28px;
+	font-size: 20px;
+	padding: 15px 20px 70px 20px;
+}
+
+
+
