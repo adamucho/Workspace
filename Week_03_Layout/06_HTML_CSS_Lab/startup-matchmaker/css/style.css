@@ -5,6 +5,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+
 }
 .header_nav{
 	background:black;
@@ -64,10 +65,18 @@ nav{
 	font-style: italic;
 }
 
-em{
+em#crossed{
 	color :gray;
-	text-decoration: underline;
+	text-decoration: line-through;
 }
+
+em#underline{
+	text-decoration: underline;
+
+
+}
+
+
 
 #hero{
 	display: block;
@@ -75,6 +84,7 @@ em{
 	margin: auto;
 	height: 490px;
 	width: auto;
+	background-image: url("../images/coworking.jpg");
 
 
 
@@ -86,7 +96,7 @@ em{
 	top:20px;
 	margin: auto;
 	left: 300px;
-	background-color: rgba(255,255,255, 0.3);
+	background-color: rgba(255,255,255, 0.8);
 
 	width: 300px;
 	padding: 20px 20px 50px 20px;
@@ -147,28 +157,77 @@ em{
 
 
 #features header{
-	font-weight: 400;
+	font-weight: 700;
 	font-family: 'Merriweather', serif;
-
 	font-size: 20px;
+
 }
 
 #features p{
-	line-height:28px;
-	font-size: 20px;
+	line-height:20px;
+	font-size: 15px;
 	font-weight: 400;
 
 }
 
+.profile{
+	text-align: left;
+	width: 240px;
+	display: inline-block;
+	
+	padding-left: 20px;
+	padding-right: 50px;
+}
+
+.find_developer{
+	text-align: left;
+	width: 240px;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 50px;
+
+
+}
+
+.find_designer{
+	text-align: left;
+	width: 240px;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 50px;
+
+}
 
 #features{
 
-
-	text-align: left;
+	text-align: center;
 	line-height:28px;
 	font-size: 20px;
-	padding: 15px 20px 70px 20px;
+	padding-top: 5px;
+	
 }
 
+.start_search{
+
+	height: 60px;
+	width: 200px;
+	background-color: gray;
+	text-align: center;
+}
+
+.grey_button{
+
+	font-size: 20px;
+
+	text-decoration: none;
+	color:white;
+	
+
+}
+
+.footer{
+	background-color: black
+
+}
 
 
