@@ -6,6 +6,9 @@ $(document).ready ( function(){
 	$("#stop-button").click(turnRed);
 	$("#slow-button").click(turnYellow);
 	$("#go-button").click(turnGreen);
+
+
+
 	$("#hide-me").click(hideOrange);
 	$("#show-me").click(showOrange);
 	$("#slide-down").click(slideDown);
