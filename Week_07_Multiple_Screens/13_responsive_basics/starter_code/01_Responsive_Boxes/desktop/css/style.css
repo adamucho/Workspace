@@ -1,0 +1,106 @@
+/* 
+
+Choose from these selectors
+
+a) header nav ul li
+
+b) #container
+
+c) header
+
+d)  section#ads, nav
+
+e) header nav ul li:last-child
+
+f) aside
+
+g) article:first-of-type
+
+h) header, li, section, article, aside
+
+i) article
+
+j) section#primary
+
+k) article:last-of-type
+
+l) header nav ul li:last-child divaside
+
+m) *
+
+*/
+{
+  width:100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+{ /* assigns borders to all of the elements */
+  border: 1px solid black;
+} 
+
+{
+  height:60px;
+}
+
+{
+  width:12%;
+  height:40px;
+  margin:10px;
+  float:left;
+}
+
+{
+  float:right;
+}
+
+{
+  margin:0 auto;
+  background:black;
+  height:1px;
+  width:95%;
+  margin-top:3px;
+
+}
+
+{
+  height:250px;
+}
+
+{
+  clear:both;
+  overflow:hidden;
+}
+
+{
+height:125px;
+width:21.25%;
+float:left;
+margin: 20px 2.5%;
+}
+
+{ /* first article */
+  margin-left:0px;
+}
+
+{ /* last article */
+  margin-right:0px;
+}
+
+{
+height:100px;
+width:30.3%; /* gets as about 91% width */
+margin:20px 1.5%;  
+float:left;
+}
+
+{
+margin:0 auto;
+width:960px;
+}
+
+/* MOBILE VERSION */
+
+
+
