@@ -4,29 +4,15 @@
 $(document).ready(function(){
   $("button").click(compare);
   function compare(){
-    var a = $("#a").val();
-    var b = parseInt($("#b").val());
-
-
-
-
-
+    var a = 500;
+    var b = 500;
     
     if(a > b){
       console.log("a is greater than b");
-      $("#comparison").text (">");
-    }
-    else if (a < b){
-      console.log("a is less then b")
-      $("#comparison").text ("<");
     }
     else{
       console.log("a equals b");
-      $("#comparison").text ("==");
     }
-
-
-
   }
 
 }); //end of document.ready()

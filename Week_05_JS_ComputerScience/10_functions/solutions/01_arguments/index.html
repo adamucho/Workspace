@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+ 
+  <title>Arguments</title>
+
+  <script>
+
+  // function helloWorld(){
+  //   console.log("Hello Functions");
+  // }
+  // helloWorld();
+
+  // hello("Barry", "Ross", 30);
+
+  // hello("First", "Last");
+
+
+  function hello(firstName, lastName, age){
+    console.log("Hello, "+firstName+" "+lastName + ""+age);
+    // console.log(firstName, lastName);
+  }
+
+  alert ( helloReturn("Barry", "Ross", 30) ) ;
+
+  function helloReturn(arg1,arg2, arg3){
+      // var output = arg1 +" "+arg2 +" "+ arg3*12;
+     // var output = arg1 +" "+arg2 +" "+ yearsToMonths(arg3);
+     var output = arg1 +" "+arg2 +" "+ yearsToDays(arg3);
+
+      return output;
+       
+  }
+  // alert( yearsToMonths(3));
+  function yearsToMonths(years){
+    return years*12;
+  }
+
+  function yearsToDays(years){
+    return years * 365;
+  }
+
+
+
+
+  
+
+
+    </script>
+</head>
+
+<body>
+
+   
+<!-- 
+  <script src="js/index.js"></script> -->
+
+</body>
+
+</html>

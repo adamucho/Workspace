@@ -4,51 +4,9 @@
 <head>
   <title>Score Keeper</title>
   <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-   <script src='http://code.jquery.com/jquery-latest.min.js'></script>
   <script>
-  // function press()
 
- // button 0 click, add 0 to the result
- // button +5 click, add 5 to the result
- // button +10 click, add 10 to the result
- // button -1 click, subtract -1 to the result
-
- $(document).ready(function(){
-	var result = 0;
-
-$("#zero").click(addZero);
-$("#add-5").click(addFive);
-$("#add-10").click(addTen);
-$("#sub-1").click(subOne);
-
-
-	function addZero(){
-	result = result + 0;
-	console.log(result);
-	$("#result").text(result);
-	}
-
-	function addFive(){
-	result = result + 5;
-	console.log(result);
-	$("#result").text(result);
-	}
-
-	function addTen(){
-	result = result + 10;
-	console.log(result);
-	$("#result").text(result);
-	}
-
-	function subOne(){
-	result = result - 1;
-	console.log(result);
-	$("#result").text(result);
-	}
-
-});
-
-</script>
+  </script>
 </head>
 
 <body>
@@ -56,8 +14,6 @@ $("#sub-1").click(subOne);
   <button id="add-5">+5</button>
   <button id="add-10">+10</button>
   <button id="sub-1">-1</button>
-  <h1 id="result"></h1>
+  <h1 id="result">0</h1>
 </body>
 </html>
-
-
