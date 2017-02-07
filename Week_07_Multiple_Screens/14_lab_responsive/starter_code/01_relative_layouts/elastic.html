@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    
+    /* ELASTIC EXAMPLE */
+      * {
+        box-sizing:border-box;
+      }
+      body {font-size: 1em}
+
+      /*FLUID EXAMPLE */
+     #container{
+       max-width: 100%; /* let's assume 980px */
+     }
+     
+     #content{
+       width:75%;
+     }
+     
+     #sidebar{
+       width:25%;
+     }
+
+
+      /*#container {max-width: 61.25em; margin: 0 auto;}*/
+      img {
+        /*width:100%;*/
+      }
+      #content {
+          float:left;
+          width:46.87em;
+          border:1px solid black;
+      }
+
+      #sidebar {
+          float:left;
+          width:15.62em;
+          border:1px solid black;
+
+      }
+
+      #footer {
+          clear:both;
+      }
+      
+
+    </style>
+
+  </head>
+  <body>
+    <div id="container">
+
+        <div id="header">
+            <p>Header</p>
+
+        </div>
+
+        <div id="content">
+          <p>
+            In 1905, Albert Einstein determined that the laws of physics are the same for all non-accelerating observers, and that the speed of light in a vacuum was independent of the motion of all observers. This was the theory of special relativity. It
+            introduced a new framework for all of physics and proposed new concepts of space and time. 	Einstein then spent 10 years trying to include acceleration in the theory and published his theory of general relativity in 1915. In it, he determined that
+            massive objects cause a distortion in space-time, which is felt as gravity.
+          </p>
+        </div>
+
+        <div id="sidebar">
+          <p>
+              Two objects exert a force of attraction on one another known as "gravity." Sir Isaac Newton quantified the gravity between two objects when he formulated his three laws of motion. The force tugging between two bodies depends on how massive each one
+              is and how far apart the two lie. Even as the center of the Earth is pulling you toward it (keeping you firmly lodged on the ground), your center of mass is pulling back at the Earth. But the more massive body barely feels the tug from you, while
+              with your much smaller mass you find yourself firmly rooted thanks to that same force. Yet Newton's laws assume that gravity is an innate force of an object that can act over a distance. - See more at:
+              http://www.space.com/17661-theory-general-relativity.html#sthash.74ZNbtGp.dpuf
+          </p>
+        </div>
+
+        <div id="footer">
+            <p>Footer</p>
+        </div>
+
+    </div>
+
+  </body>
+</html>

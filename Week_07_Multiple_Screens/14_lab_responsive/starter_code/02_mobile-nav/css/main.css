@@ -1,0 +1,107 @@
+/* Desktop Version */
+/* 
+Step 1 - float nav to the right
+Step 2 - overflow:hidden for header
+Step 3 - float the logo to the left
+Step 4 - we want a horizontal menu, so lets set the items to display:inline-block;
+Step 5 - let's set links to block element, so we can give it padding top/bottom
+Step 6- let's give them space on the left and right
+*/
+
+/* Mobile Version */
+
+/* 
+Step 1 - set list items to block, so they stack vertically 
+Step 2 - let's get the nav to stack, rather than float, let's un-float it
+Step 3- looks like the floated h1 is affecting the nav...shall we clear the nav or un-float the h1?  Let's un-float the h1...better to reduce our code than add to it
+Step 4 - Let's center our links using text-align: center;
+Step 5 - Let's make our hamburger visible, by styling the lines
+Step 6 - Let's position the hamburger so it's in the top-right
+Step 7 - Letermine what we want to hide/show - ul, nav ? hide/show or adjust height?
+*/
+
+* {
+  box-sizing:border-box;
+}
+body{
+  
+}
+header{
+	overflow: hidden;
+}
+.wrapper{
+	position: relative;
+}
+
+h1 {
+	float: left;
+
+}
+
+nav {
+	float : right;
+}
+
+ul li {
+	display: inline-block;
+
+}
+ul li a{ 
+	margin: 0 .3125em;
+	background-color: orange;
+	display: block;
+	padding: .625em;
+
+}
+nav ul li:first-child{
+	position: absolute;
+	top: 0;
+	right:0;
+	display: none;
+}
+
+.line{
+	width: 2em;
+	height: 3px;
+	background: black;
+	padding-top: 0.25em;
+	margin-top: .25em;
+
+}
+
+
+/* MOBILE */
+ @media screen and (max-width:768px){
+ 	
+ 	.open{
+		height: 10em;
+		
+	}
+
+	ul li{
+ 		display:block;
+ 	}
+
+	h1{
+  	float: none;
+  	}
+
+  	nav{
+  	float:none;
+  	text-align: center;
+  	height: 0em;
+  	transition: 1s height;
+
+  }
+
+  	nav ul li:first-child{
+  		display: block;
+
+
+}
+
+
+}
+
+
+
